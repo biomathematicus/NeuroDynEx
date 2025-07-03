@@ -1,1 +1,1 @@
-ActivateEnv AgentAI "C:\Dropbox\!JBGResearch\Neuroscience"
+ActivateEnv AgentAI "C:\Dropbox\!JBGResearch\NeuroDynEx"
