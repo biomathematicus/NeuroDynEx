@@ -24,6 +24,7 @@ NeuroDynEX is intended for:
 - [`HHEnsembleNoise.py`](HHEnsembleNoise.py): Adds independent Gaussian noise to the input current of each neuron in the ensemble. Plots population mean and standard deviation band.
 - [`HHEnsembleTonic.py`](HHEnsembleTonic.py): Uses a tonic input after a stimulus window to sustain irregular population dynamics under noise.
 - [`HHNetwork.py`](HHNetwork.py): Connects the neurons in a sparse network with conductance-based synapses driven by threshold crossing. Implements neurotransmitter-like dynamics and plots the ensemble average voltage.
+- [`Purkinje2DMulticompartment.py`](Purkinje2DMulticompartment.py): Models a Purkinje neuron as a two-dimensional array of Hodgkin-Huxley-type compartments with explicit membrane area and cable geometry scaling. The simulation dynamically integrates classical sodium and potassium channels, voltage-gated calcium currents, and calcium-activated potassium channels. Distributed stochastic synaptic input is applied across the dendritic grid. The model illustrates the spatial spread of dendritic excitation and the impact of complex ion channel dynamics in large cerebellar neurons.
 
 ---
 
