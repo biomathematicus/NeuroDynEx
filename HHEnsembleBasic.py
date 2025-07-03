@@ -1,3 +1,12 @@
+"""
+HHEnsembleBasic.py  
+Simulation of an uncoupled ensemble of N Hodgkin-Huxley neurons subject to identical step current input. The script implements classical Hodgkin-Huxley dynamics with parameter values set for each neuron, advances the ensemble using explicit Euler integration, and records membrane potential time series for all neurons in the population. Results are visualized as single neuron voltage traces across the duration of stimulation.
+
+By Juan B. Gutierrez, Professor of Mathematics  
+University of Texas at San Antonio.
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 
